@@ -1,0 +1,69 @@
+/*PORTRAIT STYLES*/
+/*MOBILE*/
+@media(max-width: 599px){
+    nav ul{
+        display: block;
+        text-align: left;
+    }
+    .section1{
+        display: block;
+        padding: 10px;
+        margin: 5px;
+    }
+    .image{
+        height: 15vh;
+        width: 40vw;
+        border-radius: 12px;
+    }
+    .section-info .description{
+        margin-top: 5px;
+        margin-left: 10px;
+        line-height: 1.2em;
+        font-weight: bold;
+    }
+    .section2{
+        display: block;
+        padding: 10px;
+        margin: 5px;
+    }
+    .cards{
+        display: block;
+    }
+} 
+
+/*TABLET*/
+@media(min-width:768px) and (max-width:1023px){
+    .image{
+        height: 15vh;
+    }
+}
+/*DESKTOP*/
+@media(min-width: 1280px) and (max-width:1440px){
+    .image{
+        height: 20vh;
+    }
+}
+
+/*LARGE SCREENS BEYOND 1440PX*/
+@media(min-width:1441px){
+    .image{
+        height: 15vh;
+        width: 20vw;
+    }
+}
+
+
+/*LANDSCAPE*/
+/*MOBILE*/
+@media(min-width:600px) and (max-width:767px){
+    .image{
+        height: 20vh;
+    }
+}
+
+/*TABLET*/
+@media(min-width:1024px) and (max-width:1279px){
+    .image{
+        height: 20vh;
+    }
+}
